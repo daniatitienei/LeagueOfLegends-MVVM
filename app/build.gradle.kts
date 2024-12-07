@@ -43,9 +43,6 @@ android {
 }
 
 dependencies {
-// Timber
-    implementation(libs.timber)
-
     // Coil
     implementation(libs.coil3.compose)
     implementation(libs.coil3.ktor)
@@ -55,9 +52,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-
-    // Google Fonts
-    implementation(libs.androidx.ui.text.google.fonts)
 
     // Hilt (dagger/hilt)
     implementation(libs.hilt.android)
@@ -75,7 +69,7 @@ dependencies {
     implementation(libs.ktor.serialization.kotlinx.json)
     implementation(libs.slf4j.simple)
 
-    // MARK: - Navigation
+    // Navigation
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.navigation.compose)
 
