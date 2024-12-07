@@ -43,7 +43,7 @@ android {
 }
 
 dependencies {
-// Timber
+    // Timber
     implementation(libs.timber)
 
     // Coil
